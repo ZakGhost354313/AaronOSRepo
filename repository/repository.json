@@ -374,14 +374,54 @@
       ],
       "repoVersion": "0.0.1",
       "packages": {
+          //apps
           "cpa": {
-              "packageName": "",
-              "packageID": "",
-              "packageAliases": [],
+              "packageName": "Crazy Pixel Apocalypse",
+              "packageID": "cpa",
+              "packageAliases": [
+                  "crazy_pickle",
+                  "cpa1",
+                  "crazy_pickle_1",
+                  "crazy_pickle1"
+              ],
               "version": "0.1",
               "packageType": "webApp",
-              "installURL": "https://"
-          }
+              "installURL": "https://raw.githubusercontent.com/ZakGhost354313/AaronOSRepo/main/repository/webApps/cpa/cpa.json",
+              "icon": {
+                  "foreground": "https://raw.githubusercontent.com/ZakGhost354313/AaronOSRepo/main/repository/webApps/cpa/icon.png"
+              },
+              "description": ""
+          }/*,
+          "jspaint": {
+            "packageName": "JS Paint",
+            "packageID": "jspaint",
+            "packageAliases": [
+              "paint",
+              "mspaint",
+              "ms paint",
+              "microsoft paint"
+            ],
+            "version": "1.0",
+            "packageType": "webApp",
+            "installURL": "repository/webApps/jspaint.json",
+            "icon": {
+              "foreground": "appicons/ds/CSE.png"
+            },
+            "description": "JS Paint was developed by Isaiah Odhner and embedded into an aOS app with his permission.\n\nFull site at https://jspaint.app"
+          },*/
+          //styles
+          /*"win10style": {
+            "packageName": "Windows 10 Theme",
+            "packageID": "win10style",
+            "packageAliases": [],
+            "version": "1.0",
+            "packageType": "stylesheet",
+            "installURL": "repository/styles/win10style.json",
+            "icon": {
+              "foreground": "repository/styles/win10style.png"
+            },
+            "description": "Similar theme to Microsoft Windows 10. Used with permission from Microsoft.\n\nRecommended settings:\nWindow Background Image: Disabled\nWindow Border Width: 1"
+          },*/
       }
   }
 }
