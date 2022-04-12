@@ -1,0 +1,26 @@
+{
+    "repoName": "My Testing Repository",
+    "repoID": "your_name_here_or_something_unique",
+    "repoAliases": ["alternate", "search", "terms"],
+    "repoVersion": "1.0",
+    "packages": {
+        "unique_id_for_my_app": {
+            "name": "My Web App",
+            "id": "unique_id_for_my_app",
+            "version": "1.0",
+            "abbreviation": "App",
+            "appType": "webApp",
+            "homeURL": "https://yourwebsite.com/myWebApp/index.html",
+            "icon": {
+                "foreground": "https://yourwebsite.com/myWebApp/repoIcon.png",
+                "backgroundColor": "#303947",
+                "backgroundBorder": {
+                    "thickness": 2,
+                    "color": "#252F3A"
+                }
+            },
+            "windowSize": [500, 400],
+            "manualOpen": 0
+        }
+    }
+}
